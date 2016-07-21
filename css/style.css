@@ -1,0 +1,424 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansRegular.woff") format("woff"),
+  url("../fonts/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansBold.woff") format("woff"),
+  url("../fonts/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansExtraBold";
+  src: url("../fonts/OpenSansExtraBold.eot");
+  src: url("../fonts/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansExtraBold.woff") format("woff"),
+  url("../fonts/OpenSansExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/OpenSansSemiBold.eot");
+  src: url("../fonts/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansSemiBold.woff") format("woff"),
+  url("../fonts/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(../img/header-bg.jpg) no-repeat center bottom;
+  font-family: "OpenSansRegular";
+}
+
+.logo-text {
+  float: left;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: #eaeaea;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.orange {
+  color: #f7600e;
+}
+
+h1 {
+  font-family: "OpenSansRegular";
+  font-weight: 800;
+  font-size: 60px;
+  color: #eaeaea;
+}
+
+.header-text {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.text {
+  color: #eaeaea;
+  font-size: 20px;
+  padding-top: 14px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.header-buttons {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.hire-button, .work-button {
+  background-color: rgba(64, 69, 75, 0);
+  border: 2px solid #eaeaea;
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hire-button:hover, .work-button:hover {
+  background-color: rgb(247, 96, 14);
+  border: 2px solid rgb(247, 96, 14);
+}
+
+.advantages {
+  padding-top: 85px;
+  text-align: center;
+  padding-bottom: 85px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.adv {
+  width: 25%;
+  float: left;
+}
+
+.adv-text-title {
+  font-family: "OpenSansRegular";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #656565;
+  padding-top: 15px;
+}
+
+.adv-text {
+  font-family: "OpenSansRegular";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #656565;
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.newsletter-block {
+  background: url(../img/newsletter-bg.jpg) no-repeat;
+  padding: 100px 0;
+  background-size: cover;
+}
+
+.email-input {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  width: 400px;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.subscribe-button {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: rgb(247, 96, 14);
+}
+
+form {
+  text-align: center;
+}
+
+.img-work {
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.portfolio {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.text-works-block {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.work-text {
+  font-family: "OpenSansSemiBold";
+  font-size: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.p-work-text {
+  font-family: "OpenSansSemiBold";
+  font-size: 14px;
+  padding-bottom: 20px;
+  color: #656565;
+}
+
+.line-work {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.line-work-p {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.adv-img {
+  border-radius: 50%;
+  border: 2px solid #b3b3b3;
+  height: 58px;
+  width: 58px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-work1 {
+  background-image: url(../img/work/1.jpg);
+}
+
+.img-work2 {
+  background-image: url(../img/work/2.jpg);
+}
+
+.img-work3 {
+  background-image: url(../img/work/3.jpg);
+}
+
+.img-work4 {
+  background-image: url(../img/work/4.jpg);
+}
+
+.img-work5 {
+  background-image: url(../img/work/5.jpg);
+}
+
+.img-work6 {
+  background-image: url(../img/work/6.jpg);
+}
+
+
+
+.img-text {
+  width: 350px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: "OpenSansRegular";
+  opacity: 0;
+  text-align: center;
+}
+
+
+.img-text:hover {
+  width: 350px;
+  background-color: rgba(223, 87, 13, 0.74);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  display: block;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.testimotions-block {
+  background: url(../img/testimotions-bg.jpg) no-repeat;
+  padding: 100px 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.t-ava {
+  border-radius: 50%;
+}
+
+.t-text, .t-autor {
+  font-family: "OpenSansRegular";
+}
+
+.t-text {
+  font-style: italic;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.t-autor {
+  color: #fff;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+a {
+ text-decoration: none;
+}
+
+.about {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 85px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.team {
+  display: inline-block;
+  width: 24%;
+  vertical-align: bottom;
+  transition: all 1s ease;
+}
+.team img {
+  transition: all 1s ease;
+  height: 200px;
+  border-radius: 10px;
+  border-bottom: 5px solid #f7600e;
+}
+.team:hover img {
+  height: 250px;
+  transition: all 1s ease;
+}
+
+.hidden-work-text {
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hidden-work-text2 {
+  color: #fff;
+  line-height: 2;
+}
+
+.team-wrapper p {
+  font-family: "OpenSansSemiBold";
+  padding-bottom: 25px;
+}
+
+.team-text-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 3;
+}
+
+.footer-form {
+  background: url(../img/footer-form-bg.jpg);
+}
+
+.form-input {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  width: 33%;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.white {
+  color: #fff;
+}
+
+.footer-text2 {
+  text-align: center;
+  line-height: 3;
+  font-size: 20px;
+  color: #fff;
+  font-family: "OpenSansRegular";
+}
+
+.work-text {
+  padding-top: 30px;
+}
+
+.form-wrapper {
+  padding-bottom: 100px;
+}
+
+.footer-copy {
+  font-family: "OpenSansRegular";
+}
+
+.copy-text {
+  text-align: center;
+  padding-top: 35px;
+  color: #eaeaea;
+  font-weight: 600;
+  font-size: 26px;
+  background-color: #3b434c;
+  padding-bottom: 35px;
+}
+
+.ts-text {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 35px;
+  color: #000;
+  font-weight: 600;
+  font-size: 26px;
+  padding-bottom: 70px;
+}
+
+.team-text {
+  color: #656565;
+  font-size: 14px;
+}

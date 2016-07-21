@@ -1,0 +1,151 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .img-work {
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  .img-text:hover {
+    width: 600px;
+  }
+
+  .team-wrapper p {
+    padding-bottom: 30px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ .img-work {
+   width: 600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 10px;
+   }
+
+ .img-text {
+  width: 600px;
+  }
+
+  .img-text:hover {
+   width: 600px;
+  }
+
+  .p-work-texts {
+   padding-bottom: 25px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .logo-text {
+    padding-left: 0;
+    float: none;
+    color: #eaeaea;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .img-text {
+    width: 300px;
+  }
+
+  .team {
+    width: 100%;
+  }
+
+  .form-input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .img-work {
+    margin-top: 10px;
+  }
+
+  .adv {
+    width: 100%;
+  }
+
+  .header-text {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+
+  button {
+    width: 260px;
+  }
+
+  .adv {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .email-input {
+    width: 330px;
+  }
+
+
+  .p-work-text {
+    width: 350px;
+    padding-left: 60px;
+  }
+
+  .img-work{
+    margin-top: 10px;
+    margin-left: 54px;
+  }
+
+  .p-work-texts {
+    width: 340px;
+    padding-left: 70px;
+  }
+
+
+  .team-img {
+    padding-top: 10px;
+  }
+  .adv{
+    width: 100%;
+  }
+
+  .footer-text2 {
+    line-height: 2;
+  }
+
+  .form-wrapper {
+    padding-top: 20px;
+  }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : 320px) {
+    .email-input {
+      width: 290px;
+    }
+
+    .p-work-text {
+      padding-left: 0;
+      width: auto;
+    }
+
+    .img-work {
+      margin-left: 0;
+    }
+
+    .p-work-texts {
+      padding-left: 0;
+      width: auto;
+    }
+  }
